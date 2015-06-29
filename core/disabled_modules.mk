@@ -1,4 +1,5 @@
-DISABLED_USER_MODULES := \
+DISABLED_USER_MODULES :=
+# \
 	libtestplugin \
 	temp_layoutlib \
 	libmock_ril \
