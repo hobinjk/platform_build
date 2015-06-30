@@ -1297,7 +1297,7 @@ function godir () {
 
 # Force JAVA_HOME to point to java 1.6 if it isn't already set
 function set_java_home() {
-    export JAVA_HOME="$(gettop)/build/fake-jdk-tools"
+    echo "Not today!"
 }
 
 # Print colored exit condition

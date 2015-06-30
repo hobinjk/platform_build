@@ -74,7 +74,7 @@ BUILD_MULTI_PREBUILT:= $(BUILD_SYSTEM)/multi_prebuilt.mk
 BUILD_JAVA_LIBRARY:= $(BUILD_SYSTEM)/java_library.mk
 BUILD_STATIC_JAVA_LIBRARY:= $(BUILD_SYSTEM)/static_java_library.mk
 BUILD_HOST_JAVA_LIBRARY:= $(BUILD_SYSTEM)/host_java_library.mk
-BUILD_DROIDDOC:= $(BUILD_SYSTEM)/empty.mk
+BUILD_DROIDDOC:= $(BUILD_SYSTEM)/droiddoc.mk
 BUILD_EMPTY:= $(BUILD_SYSTEM)/empty.mk
 BUILD_COPY_HEADERS := $(BUILD_SYSTEM)/copy_headers.mk
 BUILD_NATIVE_TEST := $(BUILD_SYSTEM)/native_test.mk
@@ -364,7 +364,7 @@ HOST_JDK_TOOLS_JAR :=
 else
 HOST_JDK_TOOLS_JAR:= $(shell $(BUILD_SYSTEM)/find-jdk-tools-jar.sh)
 ifeq ($(wildcard $(HOST_JDK_TOOLS_JAR)),)
-#$(error Error: could not find jdk tools.jar, please install JDK6, \
+$(error Error: could not find jdk tools.jar, please install JDK6, \
     which you can download from java.sun.com)
 endif
 endif
