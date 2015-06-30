@@ -1,6 +1,4 @@
-DISABLED_USER_MODULES := \
-	org.codeaurora.Performance \
-	org.codeaurora.Performance.xml
+DISABLED_USER_MODULES :=
 # \
 	libtestplugin \
 	temp_layoutlib \
