@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     android.policy \
     android.test.runner \
     applypatch \
+    app_process \
     blkid \
     bmgr \
     bugreport \
@@ -33,6 +34,10 @@ PRODUCT_PACKAGES += \
     fsck_msdos \
     ime \
     javax.obex \
+    libandroid \
+    libandroid_runtime \
+    libandroid_servers \
+    libaudioeffect_jni \
     libSR_AudioIn \
     libaudioflinger \
     libbundlewrapper \
@@ -43,9 +48,11 @@ PRODUCT_PACKAGES += \
     libeffects \
     libinput \
     libiprouteutil \
+    libjnigraphics \
     libjni_latinime \
     libldnhncr \
     libmedia \
+    libmedia_jni \
     libmediaplayerservice \
     libmtp \
     libnetlink \
@@ -54,9 +61,11 @@ PRODUCT_PACKAGES += \
     libreference-ril \
     libreverbwrapper \
     libril \
+    librtp_jni \
     libsensorservice \
     libskia \
     libsonivox \
+    libsoundpool \
     libsqlite \
     libstagefright \
     libstagefright_amrnb_common \
